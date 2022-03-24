@@ -8,7 +8,7 @@ AdaBoost is an ensemble learning method (also known as “meta-learning”) whic
 
 #### Psuedocode
 
-<img src="images/algorithm_adaboost.png" width="350" height="400" /> 
+<img src="images/algorithm_adaboost.png" width="450" height="400" /> 
 
 ### Decision Tree
 
@@ -16,7 +16,7 @@ The aim of the decision tree is predict the target variable by learning simple d
 
 Below is the algorithm I used to find the best split to create a decision stump
 
-<img src="images/bestsplit-subset.png" width="350" height="400" /> 
+<img src="images/bestsplit-subset.png" width="450" height="400" /> 
 
 ### Random Forest
 
@@ -36,8 +36,8 @@ Few properties includes:
 
 Gradient Boosting is a generalization of Adaboost. It fits additive model using stagewise additive modelling. We iterative try to learn the error at each step.
 We used the following pseudocode to build gradient boosting for Squared-error loss
-<
-img src="images/bgbm_psuedocode.png" width="400" height="200" /> 
+
+<img src="images/bgbm_psuedocode.png" width="400" height="200" /> 
 
 Few properties includes:
 1. Uses weak learners (shallow decision trees)
