@@ -1,6 +1,6 @@
 ## ML-models-scratch-implementation
 
-Here we tried to implement popular machine learning algorithm from scratch. We tried to add functionality similar to sklearn. Following are the algorithm we implemented:
+Here we implemented popular machine learning algorithm from scratch. We tried to add functionality similar to sklearn. Following are the algorithm we implemented:
 
 1. Adaboost
 2. Decision Tree
