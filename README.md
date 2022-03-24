@@ -8,21 +8,23 @@ AdaBoost is an ensemble learning method (also known as “meta-learning”) whic
 
 #### Psuedocode
 
-<img src="images/algorithm_adaboost.png" width="500" height="500" /> 
+<img src="images/algorithm_adaboost.png" width="350" height="400" /> 
 
 ### Decision Tree
 
 The aim of the decision tree is predict the target variable by learning simple decision rules inferred from the data features. It is quite interpretable while explaining the prediction. I tried to create decision tree mimicking the sklearn module for both Classification and Regression.
 
 Below is the algorithm I used to find the best split to create a decision stump
-<img src="images/bestsplit-subset.png" width="500" height="500" /> 
+
+<img src="images/bestsplit-subset.png" width="350" height="400" /> 
 
 ### Random Forest
 
 The decision tree model have a very high variance and can easily overfit the data thus do not generalize well on unseen data. To increase generality, random forests use a collection of decision trees that have been weakened to make them more independent. We trade a bit of accuracy for increase in generality. 
 
 Splitting of individual tree would be same as the decision tree. However to reduce the bias we randomly select a set of feature to decide each decision stump.
-<img src="images/bestsplit-subset.png" width="400" height="200" />   <img src="images/bestsplit-subset.png" width="400" height="200" /> 
+
+<img src="images/bestsplit-subset.png" width="350" height="200" />   <img src="images/bestsplit-subset.png" width="350" height="200" /> 
 
 Few properties includes:
 1. Uses fully grown decision trees (low bias, high variance).
@@ -34,7 +36,8 @@ Few properties includes:
 
 Gradient Boosting is a generalization of Adaboost. It fits additive model using stagewise additive modelling. We iterative try to learn the error at each step.
 We used the following pseudocode to build gradient boosting for Squared-error loss
-<img src="images/bgbm_psuedocode.png" width="400" height="200" /> 
+<
+img src="images/bgbm_psuedocode.png" width="400" height="200" /> 
 
 Few properties includes:
 1. Uses weak learners (shallow decision trees)
